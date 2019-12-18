@@ -1,7 +1,7 @@
 # DeepDOA
-An implementation of a Sparse Denoising Autoencoder (SDAE)-based Deep Neural Network (DNN) for direction finding (DF) of small unmanned aerial vehicles (UAVs). It is motivated by the practical challenges associated with classical DF algorithms such as MUSIC and ESPRIT. 
+基于深度神经网络的稀疏降噪自编码器SDAE在小型无人机的测向实现。与子空间分解类算法ESPRIT和MUSIC算法进行比较。
 
-The proposed DF scheme is practical and low-complex in the sense that a phase synchronization mechanism, an antenna calibration mechanism, and the analytical model of the antenna radiation pattern are not essential. Also, the proposed DF method can be implemented using a single-channel RF receiver.
+由于相位同步机制、天线校准机制和天线辐射模式的分析模型都不是必要的，所以所提出的DF方案是实用且低复杂度的。此外，所提出的DF方法频偏分析方法可使用单通道射频接收机来实现。
 
 For more details, please see our [Arxiv paper](https://arxiv.org/pdf/1712.01154.pdf).
 
