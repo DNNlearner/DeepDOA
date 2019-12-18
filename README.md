@@ -19,26 +19,27 @@ For more details, please see our [Arxiv paper](https://arxiv.org/pdf/1712.01154.
 - Tensorflow (recommended below 1.5)
 - Numpy 1.14.4
 
-### Dataset
+### Dataset数据集
 
-A partial dataset is provided to demonstrate our method
-training data : Dround_Data_New/Normalized
-testing data : Dround_Data_New/Normalized_test
+提供部分数据演示所提出的方法
+训练数据: Dround_Data_New/Normalized
+测试数据 : Dround_Data_New/Normalized_test
 
-data are categorized according to 45 degree sectors in training/testing data 
-eg : 'deg_0_normalize.csv' data file represent the training data collected from the first sector and like wise there are 8 sectors considered for this study
+数据以45度进行区域划分，总计有8个区域。
+例如：deg_0_normalize.csv数据文件代表从第一个区域收集到的训练文件。
 
-For more details, please see our paper below.
 
-### File description 
+### File description 文件描述
 
 - DNN_Ground_data_8sectors.py : Implementation without SDAE
-- DenoisingAE.py : Implementation of SDAE for training it separately to learn denoising features.
+- DenoisingAE.py :实现稀疏降噪自编码进行单独训练，学习降噪特征
+   Implementation of SDAE for training it separately to learn denoising features.
 - get_csv_data.py : Data handler
-- main.py : combining SDAE with a neural network to perform DOA estimations
+- main.py : 结合稀疏降噪自编码SDAE和DNN实现DOA估计
+   combining SDAE with a neural network to perform DOA estimations
 
 
-### Citation
+### Citation引证
 
 If this is useful for your work, please cite our [Arxiv paper](https://arxiv.org/pdf/1712.01154.pdf):
 
